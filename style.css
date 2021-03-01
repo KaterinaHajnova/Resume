@@ -1,0 +1,42 @@
+body {
+  color: #282425;
+  background-color: #f0ebf1;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 80px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 48px;
+  text-align: center;
+}
+a {
+  color: #756158;
+  font-style: italic;
+}
+
+.work,
+.contact {
+  background-color: #f9e3d0;
+}
+
+.paticka {
+  background-color: #282425;
+  color: white;
+  text-align: center;
+}
+
+.resume-foto {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.work img {
+  width: 33%;
+}
