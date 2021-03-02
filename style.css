@@ -4,17 +4,28 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   line-height: 1.5;
+  margin: 0 0 0 0;
 }
 
 h1 {
   font-style: italic;
   font-size: 80px;
   text-align: center;
+  margin: 0;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.568);
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.75);
+  border-color: lightgray;
 }
 
 h2 {
   font-size: 48px;
   text-align: center;
+  margin-top: 0;
+}
+
+h3 {
+  margin-top: 36px;
 }
 a {
   color: #756158;
@@ -23,20 +34,62 @@ a {
 
 .work,
 .contact {
-  background-color: #f9e3d0;
+  background-color: lightgray;
+}
+
+.intro {
+  padding: 0px 15%;
 }
 
 .paticka {
   background-color: #282425;
   color: white;
   text-align: center;
+  padding: 20px 0;
 }
 
 .resume-foto {
-  width: 200px;
+  width: 250px;
   border-radius: 50%;
+  float: right;
+  margin: 20px 5% 25px 5%;
+}
+section {
+  padding: 20px 15%;
+  margin-top: 0;
+  overflow: auto;
 }
 
-.work img {
-  width: 33%;
+.hlavicka {
+  background-image: url(header.jpeg);
+  padding: 150px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(160, 160, 160);
+  
+}
+.menu li {
+  display: inline-block;
+}
+.menu ul {
+  padding: 0;
+  margin: 0;
+}
+.menu a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 20px 60px;
+}
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+  background-color: rgb(180, 180, 180);
 }
